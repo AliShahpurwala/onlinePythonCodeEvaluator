@@ -1,4 +1,4 @@
-# onlinePythonCodeEvaluator
+# Online Python Code Evaluator
 This simple HTML index page allows users to evaluate code in the browser. The app sends the code through an AWS API Gateway to a Lambda Function which evaluates the code.
 
 ### AWS API Gateway
