@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Editor</title>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+	<script src="assets/codemirror-5.58.1/lib/codemirror.js"></script>
+	<link rel="stylesheet" href="assets/codemirror-5.58.1/lib/codemirror.css">
+	<link rel="stylesheet" type="text/css" href="assets/codemirror-5.58.1/theme/darcula.css">
+	<link rel="stylesheet" type="text/css" href="assets/codemirror-5.58.1/theme/ambiance.css">
+	<script src="assets/codemirror-5.58.1/mode/javascript/javascript.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<script type="text/javascript" src="app.js"></script>
+</head>
+<body>
+    <textarea id="ed_code" rows="4" cols="50"></textarea>
+    <br>
+    <div class="inputs">
+    	<input type="checkbox" name="startPointProvided" id="startPointProvided">
+    	<label for="startPointProvided">Provide a start point for your code? Must be a function.</label>
+    	<br><br>
+    	<input type="text" id="codeStartPoint" placeholder="Start Function of your Program">
+    	<br><br>
+    	<button class="btn-action" id="run">Run</button>
+    	<button class="btn-action" id="clear">Clear</button>
+    	<button class="btn-action" id="refresh">Refresh</button>
+    	<p id="results"></p>
+    </div>
+
+</body>
+</html>
