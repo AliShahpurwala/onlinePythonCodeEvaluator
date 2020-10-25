@@ -14,7 +14,7 @@ $(document).ready(function(){
         submittedCode = editor.getValue();
         $.ajax({
           method: 'POST',
-          url: 'https://qnjsnfaz9l.execute-api.us-east-1.amazonaws.com/v1/codeevaluatorgateway',
+          url: '',
           dataType: 'json',
           contentType: 'application/json',
           data: JSON.stringify({
